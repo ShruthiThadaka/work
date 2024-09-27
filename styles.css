@@ -1,0 +1,54 @@
+.parent{
+    width: 100%;
+    margin: auto;
+    gap: 20%;
+    row-gap: 20%;
+    background-color: rgba(0, 0, 0,0.8);
+    padding-left: 15%;
+
+}
+.btn{
+    background-color: #f3601cc1;
+    border: none;
+    border-radius: 5px;
+    display: inline;
+    
+}
+.a1{
+    color: rgba(8, 199, 8, 0.499);
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.row{
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+.card{
+    background-color: #80808052;
+    padding: 20px;
+    width: 33.3%;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+p{
+}
+.btn:hover{
+    color: white;
+    background-color: #f3601cc1;
+}
+.a1:hover{
+    color: rgba(8, 199, 8, 0.499);
+}
+h5{
+    color: #f3601cc1;
+}
+.modal-header{
+    display: flex;
+    flex-direction: column;
+}
+.form-floating{
+    list-style-type: none;
+}
